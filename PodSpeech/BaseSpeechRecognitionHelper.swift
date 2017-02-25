@@ -14,7 +14,7 @@ import BaseUtils
 open class BaseSpeechRecognitionHelper: NSObject, SFSpeechRecognizerDelegate {
     
     // MARK: - Constructor & Instance Pattern -
-    override init() {
+    public override init() {
         super.init()
         config()
         reset()
