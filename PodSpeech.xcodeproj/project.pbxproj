@@ -13,6 +13,9 @@
 		6B4249011E61F50500C33FD8 /* BaseSpeechRecognitionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4249001E61F50500C33FD8 /* BaseSpeechRecognitionHelper.swift */; };
 		6B4249031E61F8BA00C33FD8 /* BaseSpeechRecognitionHelperDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4249021E61F8BA00C33FD8 /* BaseSpeechRecognitionHelperDelegate.swift */; };
 		6B4249051E61FA7000C33FD8 /* UtteranceDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4249041E61FA7000C33FD8 /* UtteranceDetector.swift */; };
+		6B42490D1E62359700C33FD8 /* SpeechSynthesisHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B42490C1E62359700C33FD8 /* SpeechSynthesisHelper.swift */; };
+		6B42490F1E62365700C33FD8 /* SpeechSynthesisHelperDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B42490E1E62365700C33FD8 /* SpeechSynthesisHelperDelegate.swift */; };
+		6B4249161E623CFC00C33FD8 /* SpeechState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4249151E623CFC00C33FD8 /* SpeechState.swift */; };
 		95A58C5D7FE9B99805F75A93 /* Pods_PodSpeech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE0F409EFDC6547A493C2F4 /* Pods_PodSpeech.framework */; };
 		EB700B79925BB0CA01AD1D81 /* Pods_PodSpeechTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE6A9A9CD873902070A23C1 /* Pods_PodSpeechTests.framework */; };
 /* End PBXBuildFile section */
@@ -38,6 +41,9 @@
 		6B4249001E61F50500C33FD8 /* BaseSpeechRecognitionHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseSpeechRecognitionHelper.swift; sourceTree = "<group>"; };
 		6B4249021E61F8BA00C33FD8 /* BaseSpeechRecognitionHelperDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseSpeechRecognitionHelperDelegate.swift; sourceTree = "<group>"; };
 		6B4249041E61FA7000C33FD8 /* UtteranceDetector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtteranceDetector.swift; sourceTree = "<group>"; };
+		6B42490C1E62359700C33FD8 /* SpeechSynthesisHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechSynthesisHelper.swift; sourceTree = "<group>"; };
+		6B42490E1E62365700C33FD8 /* SpeechSynthesisHelperDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechSynthesisHelperDelegate.swift; sourceTree = "<group>"; };
+		6B4249151E623CFC00C33FD8 /* SpeechState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechState.swift; sourceTree = "<group>"; };
 		98D6ACF8D56E4B890965BF11 /* Pods-PodSpeech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodSpeech.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PodSpeech/Pods-PodSpeech.debug.xcconfig"; sourceTree = "<group>"; };
 		9DE6A9A9CD873902070A23C1 /* Pods_PodSpeechTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PodSpeechTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B05B02D9B95A8DB98154F349 /* Pods-PodSpeech.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodSpeech.release.xcconfig"; path = "Pods/Target Support Files/Pods-PodSpeech/Pods-PodSpeech.release.xcconfig"; sourceTree = "<group>"; };
@@ -105,6 +111,9 @@
 				6B4249001E61F50500C33FD8 /* BaseSpeechRecognitionHelper.swift */,
 				6B4249021E61F8BA00C33FD8 /* BaseSpeechRecognitionHelperDelegate.swift */,
 				6B4249041E61FA7000C33FD8 /* UtteranceDetector.swift */,
+				6B42490C1E62359700C33FD8 /* SpeechSynthesisHelper.swift */,
+				6B42490E1E62365700C33FD8 /* SpeechSynthesisHelperDelegate.swift */,
+				6B4249151E623CFC00C33FD8 /* SpeechState.swift */,
 			);
 			path = PodSpeech;
 			sourceTree = "<group>";
@@ -323,7 +332,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B42490F1E62365700C33FD8 /* SpeechSynthesisHelperDelegate.swift in Sources */,
+				6B42490D1E62359700C33FD8 /* SpeechSynthesisHelper.swift in Sources */,
 				6B4249031E61F8BA00C33FD8 /* BaseSpeechRecognitionHelperDelegate.swift in Sources */,
+				6B4249161E623CFC00C33FD8 /* SpeechState.swift in Sources */,
 				6B4249011E61F50500C33FD8 /* BaseSpeechRecognitionHelper.swift in Sources */,
 				6B4249051E61FA7000C33FD8 /* UtteranceDetector.swift in Sources */,
 			);
